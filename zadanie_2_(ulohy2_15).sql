@@ -143,4 +143,4 @@ WHERE NOT EXISTS (
     FROM flourmills_sales t2
     WHERE t2.region = t1.region
       AND t2.product_category = 'Flour'
-);
+); 
